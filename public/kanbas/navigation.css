@@ -1,0 +1,158 @@
+/* Kanbas navigation */
+.wd-kanbasNav {
+    font-family: Helvetica;
+    color: white;
+    float: left;
+    margin-left: 0;
+}
+
+.wd-kanbasNav li {
+    background-color:black;
+    list-style-type: None;
+    text-align: center;
+    
+}
+
+.wd-kanbasNav li#selected{
+    background-color:white;
+    list-style-type: None;
+    text-align: center;
+}
+
+.wd-kanbasNav i {
+    margin: 5px;
+    padding: 5px 0px 5px 5px;
+    
+}
+
+.wd-kanbasNav a {
+    color: white;
+    text-decoration: none;
+    list-style-type: None;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.wd-kanbasNav a#selected {
+    color: black;
+    text-decoration: none;
+    list-style-type: None;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+.wd-grid-row{
+    clear: both;
+}
+
+/*///////////////////////////// Account nav //////////////////////*/
+.wd-accountNav {
+    font-family: Helvetica;
+    color: white;
+    float: left;
+    width: 200px;
+}
+
+.wd-accountNav li {
+    background-color:white;
+    list-style-type: None;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    
+    
+}
+
+.wd-accountNav li#selected{
+    background-color:white;
+    list-style-type: None;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+    border-left-width: 3px solid;
+    border-left-style: solid;
+}
+
+.wd-accountNav i {
+    margin: 15px;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+.wd-accountNav a {
+    color: #821212;
+    text-decoration: none;
+    list-style-type: None;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+}
+
+.wd-accountNav a#selected {
+    color: black;
+    text-decoration: none;
+    list-style-type: None;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+
+/*///////////////////////////// Account //////////////////////*/
+
+.wd-grid-col-half-page {
+    width: 50%;
+    float:left;
+    margin-left: 100px;
+}
+
+.wd-account{
+    font-family: Helvetica;
+    color: black;
+    width: 30%;
+}
+
+.wd-account h3{
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+
+.wd-account h2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+.wd-account p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-weight: lighter;
+    width: 300px;
+    margin-top: -10px;
+}
+
+.wd-account a{
+    text-decoration: none;
+    color: #821212;
+}
+
+.wd-grid-col-right-sidebar{
+    width: 15%;
+    float: left;
+}
+
+.wd-grid-col-right-sidebar button#EditProfile{
+    font-size: larger;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

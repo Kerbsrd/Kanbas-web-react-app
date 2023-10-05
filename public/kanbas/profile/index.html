@@ -5,51 +5,60 @@
    <title>Profile index</title>
 </head>
 <body>
-<!-- <div id="root"></div> -->
 
-<table width="100%">
-    <tbody>
-        <tr>
-            <td valign="top">
-                <ul>
+<!-- <div id="root"></div> -->
+<link href="../navigation.css" rel="stylesheet"/>
+<link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet"/>
+ <script src="https://kit.fontawesome.com/1cc7f51cc9.js" crossorigin="anonymous"></script>
+
+<div class="wd-grid-row">
+    <div class="wd-kanbasNav">
                     <!-- First column of links-->
+                    <li class="li">
                     <li>
-                        <a href="../profile/index.html">Account</a>
+                        <img src="../northeastern_feature.png" width = 85px>
+                    </li>
+                    <li id="selected">
+                        <a id="selected" href="../../profile/index.html"><i class="fa-solid fa-circle-user fa-2x" style="color: #821212;"></i><br>Account</a>
                     </li>
                     <li>
-                        <a href="#">Dashboard</a>
+                        <a href="../dashboard/index.html">
+                            <i class="fa-solid fa-gauge fa-2x" style="color: #821212;"></i><br>Dashboard</a>
+                    </li>
+                    <li >
+                        <a href="#"><i class="fa-solid fa-book fa-2x" style="color: #821212;"></i><br>Courses</a>
                     </li>
                     <li>
-                        <a href="#">Courses</a>
+                        <a href="#"><i class="fa-regular fa-calendar fa-2x" style="color: #821212;"></i><br>Calendar</a>
                     </li>
                     <li>
-                        <a href="#">Calendar</a>
+                        <a href="#"><i class="fa-solid fa-sheet-plastic fa-2x" style="color: #821212;"></i><br>Inbox</a>
                     </li>
                     <li>
-                        <a href="#">Inbox</a>
+                        <a href="#"><i class="fa-regular fa-clock fa-2x" style="color: #821212;"></i><br>History</a>
                     </li>
                     <li>
-                        <a href="#">History</a>
+                        <a href="#"><i class="fa-brands fa-square-youtube fa-2x" style="color: #821212;"></i><br>Studio</a>
                     </li>
                     <li>
-                        <a href="#">Studio</a>
+                        <a href="#"><i class="fa-regular fa-share-from-square fa-2x" style="color: #821212;"></i><br>Commons</a>
                     </li>
                     <li>
-                        <a href="#">Commons</a>
+                        <a href="#"><i class="fa-regular fa-circle-question fa-2x" style="color: #821212;"></i><br>Help</a>
                     </li>
-                    <li>
-                        <a href="#">Help</a>
-                    </li>
-                </ul>
-            </td>
-            <!-- Second column of links-->
-            <td valign="top">
+            </div>
+        
+
+  <!-- Second column of links-->
+    <div class="wd-accountNav">
                 <ul>   
                     <li>
                         <a href="#">Notifacations</a>
                     </li>
-                    <li>
-                        <a href="../profile/index.html">Profile</a>
+                    <li id="selected">
+                        <a id="selected" href="../profile/index.html">Profile</a>
                     </li>
                     <li>
                         <a href="#">Files</a>
@@ -70,26 +79,29 @@
                         <a href="#">Global Announcments</a>
                     </li>
                 </ul>
-            </td>
-            <td>
+    </div>
+
+    <div class="wd-grid-col-half-page">
+        <div class="wd-account">
                 User's Profile <br/>
+                <i class="fa-solid fa-circle-user fa-10x" style="color: #acadaf;"></i>
+                <br>
                 <h2>Jane Doe</h2> 
                 <br/>
                 <h3>Contact</h3><br/>
-                No Registered services, you can add some on the <a href="#"> settings</a> page. <br/>
+            <p>No Registered services, you can add some on the <a href="#"> settings</a> page. </p><br/>
                 <h3>Biography</h3><br/>
-                Faculty, Software Engineer, AI, Space, and renewables enthusiast. <br/>
+                <p>Faculty, Software Engineer, AI, Space, and renewables enthusiast. </p><br/>
                 <h3>Links</h3> </br>
-                <a href="#">YouTube</a>
-            </td>
-            <td valign="top">
+                <p><a href="https://youtu.be/dQw4w9WgXcQ?si=B0kyyny64LKfnXtn">YouTube</a></p>
+         </div>
                 <br/>
-                <form action="../profile/edit.html">
-                <button>Edit Profile</button>
-                </form>
-            </td>
-        </tr>
-    </tbody>
-</table>
+    </div>
+    <div class="wd-grid-col-right-sidebar">
+        <form action="../profile/edit.html">
+        <button id="EditProfile"><i class="fa-regular fa-pen-to-square" style="color: #000000;"></i>Edit Profile</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
